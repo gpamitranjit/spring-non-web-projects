@@ -1,0 +1,46 @@
+{
+	"id": "51b3be2a-a1a2-c8db-a030-4d8f5ea3a3b3",
+	"name": "spring-non-web-projects",
+	"description": "",
+	"order": [
+		"2db7246c-045d-44bc-1daf-703c7d7f4cf2"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1537374077561,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "2db7246c-045d-44bc-1daf-703c7d7f4cf2",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8082/home/todo/save",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "51b3be2a-a1a2-c8db-a030-4d8f5ea3a3b3",
+			"data": [],
+			"dataMode": "raw",
+			"name": "post todo request to the rest controller",
+			"description": "post todo request to the rest controller and check the response based on messageConverter can ignore unknown properties or not..",
+			"descriptionFormat": "html",
+			"time": 1537374079037,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"id\": \"1\",\n\t\"name\": \"Amit todo\",\n\t\"description\": \"some description\",\n\t\"unknownField\": \"unknown field data\"\n}"
+		}
+	]
+}
